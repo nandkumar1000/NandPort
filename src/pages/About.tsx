@@ -1,5 +1,5 @@
 import { Calendar, MapPin, Award, Target, Heart } from 'lucide-react';
-import AboutImg from '../image/ProjectImage/Aboutimg.jpg';
+import AboutImg from '../image/ProjectImage/aboutimg.jpg';
 
 
 const About = () => {

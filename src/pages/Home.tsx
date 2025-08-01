@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react';
 import Typed from 'typed.js';
 import { Link } from 'react-router-dom';
-import Homeimg from '../image/ProjectImage/Homeimage.jpg';
+import Homeimg from '../image/ProjectImage/homeimg.jpg';
 import myjourney from '../image/ProjectImage/myjurney.jpg';
 import {
   ArrowRight,
