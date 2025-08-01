@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react';
 import Typed from 'typed.js';
 import { Link } from 'react-router-dom';
-import Homeimg from '../image/ProjectImage/homeimg.jpg';
+import homeimg from '../image/ProjectImage/homeimg.jpg';
 import myjourney from '../image/ProjectImage/myjurney.jpg';
 import {
   ArrowRight,
@@ -124,7 +124,7 @@ const Home = () => {
             <div className="animate-slideUp">
               <div className="relative">
                 <img
-                  src={Homeimg}
+                  src={homeimg}
                   alt="Developer working"
                   className="rounded-2xl shadow-2xl w-full h-96 object-cover"
                 />

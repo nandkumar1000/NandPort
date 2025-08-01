@@ -1,5 +1,5 @@
-import { Calendar, MapPin, Award, Target, Heart } from 'lucide-react';
-import AboutImg from '../image/ProjectImage/aboutimg.jpg';
+import { Award, Target, Heart } from 'lucide-react';
+import aboutImg from '../image/ProjectImage/aboutimg.jpg';
 
 
 const About = () => {
@@ -69,7 +69,7 @@ const About = () => {
           </div>
           <div className="relative">
             <img
-              src={AboutImg}
+              src={aboutImg}
               alt="Developer working"
               className="rounded-2xl shadow-2xl w-full h-96 object-cover"
             />
