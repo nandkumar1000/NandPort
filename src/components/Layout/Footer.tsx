@@ -15,7 +15,12 @@ const Footer = () => {
   const navigation = [
     { name: 'Home', path: '/' },
     { name: 'About', path: '/about' },
+    { name: 'Certifications', path: '/certifications' },
+    { name: 'Skill', path: '/skill' },
     { name: 'Projects', path: '/projects' },
+    { name: 'Achievements', path: '/achievements' },
+    { name: 'Services', path: '/services' },
+    { name: 'Blog', path: '/blog' },
     { name: 'Contact', path: '/contact' },
   ];
 
@@ -55,19 +60,19 @@ const Footer = () => {
             {/* Social Icons */}
             <div className="flex space-x-4 mt-4">
               <a href="mailto:shivanandbasal9520@gmail.com" className="text-gray-400 hover:text-blue-600 dark:hover:text-blue-400" title="Email">
-                <Mail className="h-5 w-5" />
+                <Mail className="h-9 w-9" />
               </a>
               <a href="https://linkedin.com/in/nandkumarsahu1234" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-blue-600 dark:hover:text-blue-400" title="LinkedIn">
-                <Linkedin className="h-5 w-5" />
+                <Linkedin className="h-9 w-9" />
               </a>
               <a href="https://github.com/nandkumar1000" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-blue-600 dark:hover:text-blue-400" title="GitHub">
-                <Github className="h-5 w-5" />
+                <Github className="h-9 w-9" />
               </a>
               <a href="https://www.npmjs.com/~nandkumarsahu" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-rose-500 dark:hover:text-rose-400" title="NPM Profile">
-                <Package className="h-5 w-5" />
+                <Package className="h-9 w-9" />
               </a>
               <a href="https://chrome.google.com/webstore/detail/youtube-bookmark-extension/gfgfcdngikgcclogghhjgdlobdpffbgo" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-green-500 dark:hover:text-green-400" title="Chrome Extension">
-                <Chrome className="h-5 w-5" />
+                <Chrome className="h-9 w-9" />
               </a>
             </div>
           </div>
@@ -92,7 +97,7 @@ const Footer = () => {
           <div>
             <h3 className="font-semibold text-gray-900 dark:text-white mb-4">Resources</h3>
             <nav className="flex flex-col space-y-2">
-              <a href="https://n-k-s.netlify.app/resume.pdf" target="_blank" className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 flex items-center gap-2">
+              <a href="https://drive.google.com/drive/folders/1UbLo0afL-DyY5e74fbD86Gm4nU_tAB0H?usp=sharing" target="_blank" className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 flex items-center gap-2">
                 <FileText className="h-4 w-4" /> Resume
               </a>
               <a href="#testimonials" className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 flex items-center gap-2">
@@ -120,7 +125,7 @@ const Footer = () => {
         {/* Footer Bottom */}
         <div className="mt-8 pt-8 border-t border-gray-200 dark:border-gray-700">
           <p className="text-center text-gray-600 dark:text-gray-400 text-sm">
-            © 2024 Nand Kumar Sahu. All rights reserved. | Built with MERN | v1.2.0
+            © 2024 Nand Kumar Sahu. All rights reserved. | Built with Reactjs | version 1.0.0
           </p>
         </div>
       </div>

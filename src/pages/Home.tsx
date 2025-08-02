@@ -1,6 +1,7 @@
 import { useEffect, useRef } from 'react';
 import Typed from 'typed.js';
 import { Link } from 'react-router-dom';
+import { Sparkles } from "lucide-react";
 import homeimg from '../image/ProjectImage/homeimg.jpg';
 import myjourney from '../image/ProjectImage/myjurney.jpg';
 import {
@@ -90,7 +91,7 @@ const Home = () => {
                 </Button>
                 <Button variant="outline" className="w-full sm:w-auto flex justify-center">
                   <a
-                    href="https://drive.google.com/file/d/1HShqs9c7A91Zgl5JPlcH2OmmMJCP2ZL3/view?usp=sharing"
+                    href="https://drive.google.com/drive/folders/1UbLo0afL-DyY5e74fbD86Gm4nU_tAB0H?usp=sharing"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-full flex items-center justify-center"
@@ -104,21 +105,22 @@ const Home = () => {
               {/* Social Icons */}
               <div className="flex space-x-4 mt-6">
                 <a href="mailto:shivanandbasal9520@gmail.com" className="text-gray-400 hover:text-blue-600 dark:hover:text-blue-400" title="Email">
-                  <Mail className="h-5 w-5" />
+                  <Mail className="h-10 w-10" />
                 </a>
                 <a href="https://linkedin.com/in/nandkumarsahu1234" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-blue-600 dark:hover:text-blue-400" title="LinkedIn">
-                  <Linkedin className="h-5 w-5" />
+                  <Linkedin className="h-10 w-10" />
                 </a>
                 <a href="https://github.com/nandkumar1000" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-blue-600 dark:hover:text-blue-400" title="GitHub">
-                  <Github className="h-5 w-5" />
+                  <Github className="h-10 w-10" />
                 </a>
                 <a href="https://www.npmjs.com/~nandkumarsahu" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-rose-500 dark:hover:text-rose-400" title="NPM Profile">
-                  <Package className="h-5 w-5" />
+                  <Package className="h-10 w-10" />
                 </a>
                 <a href="https://github.com/nandkumar1000/Chrome-Extension-Time-stamp-" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-green-500 dark:hover:text-green-400" title="Chrome Extension">
-                  <Chrome className="h-5 w-5" />
+                  <Chrome className="h-10 w-10" />
                 </a>
               </div>
+
             </div>
 
             <div className="animate-slideUp">
@@ -136,17 +138,18 @@ const Home = () => {
       </section>
 
       {/* Marquee Achievements */}
-      < section className="py-4 overflow-hidden" >
-        <div className="marquee">
-          <div className="marquee-content text-lg font-medium">
+      <section className="py-4 overflow-hidden">
+        <div className="relative w-full">
+          <div className="flex animate-marquee whitespace-nowrap text-lg font-medium">
             {achievements.concat(achievements).map((achievement, index) => (
               <span key={index} className="mx-8 inline-flex items-center">
-                ⭐ {achievement}
+                <Sparkles className="w-5 h-5 mr-2 text-yellow-500" />
+                {achievement}
               </span>
             ))}
           </div>
         </div>
-      </section >
+      </section>
 
       {/* Academic Stats */}
       < section className="py-16 bg-card" >

@@ -99,14 +99,6 @@ const Contact = () => {
                 >
                   <Github className="h-6 w-6 text-gray-600 dark:text-gray-400" />
                 </a>
-                <a
-                  href="https://twitter.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="w-12 h-12 bg-sky-100 dark:bg-sky-900/20 rounded-lg flex items-center justify-center hover:bg-sky-200 dark:hover:bg-sky-800/30 transition-colors"
-                >
-                  <Twitter className="h-6 w-6 text-sky-600 dark:text-sky-400" />
-                </a>
               </div>
             </div>
 

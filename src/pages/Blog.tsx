@@ -1,5 +1,6 @@
 import { useState } from 'react';
-import { Calendar, Clock, User, Tag, ArrowRight, X, Eye } from 'lucide-react';
+import { Calendar, X, Eye } from 'lucide-react';
+import chromeextension from "../image/ProjectImage/chromeextension.jpg"
 
 const Blog = () => {
   const [selectedPost, setSelectedPost] = useState(null);
@@ -39,7 +40,7 @@ const Blog = () => {
       readTime: '4 min read',
       category: 'Projects',
       author: 'Nand Kumar Sahu',
-      image: 'https://images.pexels.com/photos/8972648/pexels-photo-8972648.jpeg',
+      image: chromeextension,
       tags: ['Chrome Extension', 'JavaScript', 'Web Dev'],
       views: 621,
     },
